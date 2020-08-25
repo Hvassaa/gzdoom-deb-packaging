@@ -1,0 +1,35 @@
+Source: gzdoom
+Section: games
+Priority: optional
+Maintainer: Rasmus Bjerg <rs.bjerg@gmail.com>
+Build-Depends: 
+ cmake,
+ debhelper (>=11~),
+ g++,
+ make,
+ libsdl2-dev,
+ zlib1g-dev,
+ libbz2-dev,
+ libjpeg-dev,
+ libfluidsynth-dev,
+ libgme-dev,
+ libopenal-dev,
+ libmpg123-dev,
+ libsndfile1-dev,
+ libgtk-3-dev,
+ timidity,
+ nasm,
+ libgl1-mesa-dev,
+ libsdl1.2-dev,
+ libglew-dev
+ 
+Standards-Version: 4.1.4
+Homepage: http://zdoom.org
+Package: gzdoom
+Architecture: amd64
+Multi-Arch: foreign
+Depends: 
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: Doom source port
+ GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine.
