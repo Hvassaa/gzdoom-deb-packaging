@@ -1,2 +1,2 @@
-usr/share/applications/gzdoom.desktop
-/usr/share/pixmaps/gzdoom.png
+debian/gzdoom.desktop /usr/share/applications/gzdoom.desktop
+debian/gzdoom.png /usr/share/pixmaps/gzdoom.png
