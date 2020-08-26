@@ -30,6 +30,9 @@ Architecture: amd64
 Multi-Arch: foreign
 Depends: 
  ${misc:Depends},
- ${shlibs:Depends}
+ ${shlibs:Depends},
+ gxmessage,
+ kdialog,
+ fluidsynth
 Description: Doom source port
  GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine.
