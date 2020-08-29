@@ -9,7 +9,7 @@ TODO:
  bump version to latest (g4.4.2)
 	maybe package zmusic
 		zmusic.h is needed for compiling gzdoom
-		libzmusic is needed at runtime
+		libzmusic.so is needed at runtime
 		
 		
 
