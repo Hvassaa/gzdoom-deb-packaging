@@ -5,6 +5,11 @@ https://forum.zdoom.org/viewtopic.php?t=67489
 https://github.com/coelckers/ZMusic/
 
 TODO:
-bump version to latest (g4.4.2)
-	maybe package zmusic?
+ Fix icon (taskbar/desktop icon)
+ bump version to latest (g4.4.2)
+	maybe package zmusic
+		zmusic.h is needed for compiling gzdoom
+		libzmusic is needed at runtime
+		
+		
 
