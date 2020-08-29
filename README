@@ -1,0 +1,10 @@
+Effort to package GZdoom for debian
+
+Currently targeted at GZdoom g4.3.3, since newer versions need zmusic, see 
+https://forum.zdoom.org/viewtopic.php?t=67489
+https://github.com/coelckers/ZMusic/
+
+TODO:
+bump version to latest (g4.4.2)
+	maybe package zmusic?
+
